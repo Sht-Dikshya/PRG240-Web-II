@@ -497,20 +497,20 @@ body {
     }
 }
 
-/* Employee Registration Form Styles */
-.employee-form .card {
+/* User Registration Form Styles */
+.user-form .card {
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     border: none;
     border-radius: 15px;
 }
 
-.employee-form .card-header {
+.user-form .card-header {
     border-radius: 15px 15px 0 0 !important;
     background: linear-gradient(135deg, var(--primary) 0%, #0d3b10 100%);
 }
 
-.employee-form .form-control,
-.employee-form .form-select {
+.user-form .form-control,
+.user-form .form-select {
     border-radius: 10px;
     border: 2px solid #e0e0e0;
     padding: 0.875rem;
@@ -518,14 +518,14 @@ body {
     transition: all 0.3s ease;
 }
 
-.employee-form .form-control:focus,
-.employee-form .form-select:focus {
+.user-form .form-control:focus,
+.user-form .form-select:focus {
     border-color: var(--primary);
     box-shadow: 0 0 0 0.2rem rgba(17, 69, 18, 0.25);
     transform: translateY(-2px);
 }
 
-.employee-form .btn-primary {
+.user-form .btn-primary {
     background: linear-gradient(135deg, var(--primary) 0%, #0d3b10 100%);
     border: none;
     border-radius: 10px;
@@ -535,29 +535,29 @@ body {
     letter-spacing: 0.5px;
 }
 
-.employee-form .btn-primary:hover {
+.user-form .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(17, 69, 18, 0.3);
 }
 
-/* Employee Summary Styles */
-.employee-summary .card {
+/* User Summary Styles */
+.user-summary .card {
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     border: none;
     border-radius: 15px;
 }
 
-.employee-summary .card-header {
+.user-summary .card-header {
     border-radius: 15px 15px 0 0 !important;
     background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
 }
 
-.employee-summary .table td {
+.user-summary .table td {
     padding: 0.75rem 0;
     border-bottom: 1px solid #f0f0f0;
 }
 
-.employee-summary .table td:first-child {
+.user-summary .table td:first-child {
     font-weight: 600;
     color: var(--primary);
     width: 40%;

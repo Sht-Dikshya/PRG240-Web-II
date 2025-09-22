@@ -24,7 +24,7 @@
                     <div class="card-body text-center">
                         <div class="mb-4">
                             <h3 class="text-primary">Welcome to Spring MVC Application</h3>
-                            <p class="lead">This is a demonstration of Spring MVC with employee management functionality.</p>
+                            <p class="lead">This is a demonstration of Spring MVC with user management functionality.</p>
                         </div>
                         
                         <div class="row">
@@ -33,12 +33,12 @@
                                     <div class="card-body">
                                         <h5 class="card-title text-primary">
                                             <i class="bi bi-person-plus me-2"></i>
-                                            Employee Registration
+                                            User Registration
                                         </h5>
-                                        <p class="card-text">Register new employees with their details including Employee ID, name, email, contact number, and position.</p>
-                                        <a href="${pageContext.request.contextPath}/employee/register" 
+                                        <p class="card-text">Register new users with their details including User ID, name, email, contact number, and position.</p>
+                                        <a href="${pageContext.request.contextPath}/user/register"
                                            class="btn btn-primary btn-lg w-100">
-                                            Register Employee
+                                            Register User
                                         </a>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@
                                             <i class="bi bi-gear me-2"></i>
                                             API Testing
                                         </h5>
-                                        <p class="card-text">Test the REST API endpoints for employee registration and other services.</p>
+                                        <p class="card-text">Test the REST API endpoints for user registration and other services.</p>
                                         <a href="${pageContext.request.contextPath}/api-test" 
                                            class="btn btn-success btn-lg w-100">
                                             API Test Page
@@ -77,7 +77,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <ul class="list-unstyled">
-                                            <li><i class="bi bi-check-circle text-success me-2"></i>Employee Management</li>
+                                            <li><i class="bi bi-check-circle text-success me-2"></i>User Management</li>
                                             <li><i class="bi bi-check-circle text-success me-2"></i>JSON Data Exchange</li>
                                             <li><i class="bi bi-check-circle text-success me-2"></i>Bootstrap UI</li>
                                             <li><i class="bi bi-check-circle text-success me-2"></i>Error Handling</li>

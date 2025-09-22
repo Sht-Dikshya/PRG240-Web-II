@@ -18,18 +18,18 @@
                     <div class="card-body text-center">
                         <div class="mb-4">
                             <h3 class="text-primary">Welcome to Spring MVC Application</h3>
-                            <p class="lead">This is a demonstration of Spring MVC with employee management functionality.</p>
+                            <p class="lead">This is a demonstration of Spring MVC with user management functionality.</p>
                         </div>
                         
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <div class="card h-100">
                                     <div class="card-body">
-                                        <h5 class="card-title text-primary">Employee Registration</h5>
-                                        <p class="card-text">Register new employees with their details.</p>
+                                        <h5 class="card-title text-primary">User Registration</h5>
+                                        <p class="card-text">Register new users with their details.</p>
                                         <a href="<%= request.getContextPath() %>/employee/register" 
                                            class="btn btn-primary btn-lg w-100">
-                                            Register Employee
+                                            Register User
                                         </a>
                                     </div>
                                 </div>
@@ -39,8 +39,8 @@
                                 <div class="card h-100">
                                     <div class="card-body">
                                         <h5 class="card-title text-success">API Testing</h5>
-                                        <p class="card-text">Test the REST API endpoints for employee management.</p>
-                                        <a href="<%= request.getContextPath() %>/api/employee/health" 
+                                        <p class="card-text">Test the REST API endpoints for user management.</p>
+                                        <a href="<%= request.getContextPath() %>/api/user/health"
                                            class="btn btn-success btn-lg w-100">
                                             Test API
                                         </a>
