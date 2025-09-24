@@ -10,22 +10,22 @@ import jakarta.validation.constraints.Size;
  * Used for API requests and responses
  */
 public class UserDTO {
-    
+
     private Long userId;
-    
+
     @NotBlank(message = "Name is required")
     @Size(min = 2, max = 100, message = "Name must be between 2 and 100 characters")
     private String name;
-    
+
     @NotBlank(message = "Email is required")
     @Email(message = "Email should be valid")
     @Size(max = 255, message = "Email must not exceed 255 characters")
     private String email;
-    
+
     @NotBlank(message = "Contact number is required")
     @Pattern(regexp = "^[+]?[0-9\\s\\-\\(\\)]{10,20}$", message = "Contact number format is invalid")
     private String contactNumber;
-    
+
     @NotBlank(message = "Position is required")
     @Size(min = 2, max = 100, message = "Position must be between 2 and 100 characters")
     private String position;
@@ -47,7 +47,7 @@ public class UserDTO {
         this.position = position;
         this.address = address;
     }
-    
+
     // Constructor without ID (for new users)
     public UserDTO(String name, String email, String contactNumber, String position, String address) {
         this.name = name;
