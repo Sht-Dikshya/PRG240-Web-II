@@ -1,0 +1,202 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "status is 200 or 201": {
+                    "name": "status is 200 or 201",
+                    "path": "::status is 200 or 201",
+                    "id": "84a4ddb4484a5d859d169f8c46a575bf",
+                    "passes": 12317,
+                    "fails": 2
+                },
+                "response has success field": {
+                    "name": "response has success field",
+                    "path": "::response has success field",
+                    "id": "efcb99467af0d921f6e327ce44f5802e",
+                    "passes": 12319,
+                    "fails": 0
+                },
+                "success is true": {
+                    "name": "success is true",
+                    "path": "::success is true",
+                    "id": "7150bd9c0a1a051257719bf482d5f56d",
+                    "passes": 12317,
+                    "fails": 2
+                },
+                "response has message": {
+                    "name": "response has message",
+                    "path": "::response has message",
+                    "id": "92b266aaaeb543acb492dbe91c37dd31",
+                    "passes": 12319,
+                    "fails": 0
+                },
+                "response time < 10s": {
+                    "name": "response time < 10s",
+                    "path": "::response time < 10s",
+                    "id": "aca18d8462366ce763a44b6147a6a318",
+                    "passes": 1691,
+                    "fails": 10628
+                }
+            }
+    },
+    "metrics": {
+        "vus": {
+            "value": 9,
+            "min": 9,
+            "max": 1000
+        },
+        "failed_registrations": {
+            "count": 2,
+            "rate": 0.006409674524800615
+        },
+        "http_req_receiving": {
+            "p(95)": 469.64368,
+            "p(99)": 601.976065,
+            "min": 0,
+            "avg": 151.6418256493501,
+            "med": 77.25229999999999,
+            "max": 963.4481,
+            "p(90)": 406.48300000000006
+        },
+        "vus_max": {
+            "max": 1000,
+            "value": 1000,
+            "min": 1000
+        },
+        "http_req_duration": {
+            "min": 3.9229,
+            "avg": 21644.318932613605,
+            "med": 26507.12915,
+            "max": 34498.1399,
+            "p(90)": 29938.81051,
+            "p(95)": 30605.239805,
+            "p(99)": 31749.791738999997,
+            "thresholds": {
+                "p(95)<5000": true,
+                "p(99)<10000": true
+            }
+        },
+        "http_reqs": {
+            "count": 12320,
+            "rate": 39.48359507277179,
+            "thresholds": {
+                "rate>100": true
+            }
+        },
+        "iteration_duration": {
+            "min": 626.5215,
+            "avg": 22992.77952655252,
+            "med": 27738.7812,
+            "max": 35988.7801,
+            "p(90)": 31413.4134,
+            "p(95)": 32162.071869999996,
+            "p(99)": 33490.61805
+        },
+        "successful_registrations": {
+            "passes": 12317,
+            "fails": 2,
+            "thresholds": {
+                "rate>0.70": false
+            },
+            "value": 0.9998376491598344
+        },
+        "http_req_sending": {
+            "min": 0,
+            "avg": 0.03130942370129871,
+            "med": 0,
+            "max": 32.037,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 1.0002
+        },
+        "data_received": {
+            "rate": 17438.04834286837,
+            "count": 5441165
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 21643.613132862447,
+            "med": 26510.4732,
+            "max": 34498.1399,
+            "p(90)": 29938.83873,
+            "p(95)": 30605.253215,
+            "p(99)": 31749.858977,
+            "min": 3.9229
+        },
+        "http_req_waiting": {
+            "min": 3.9229,
+            "avg": 21492.645797540612,
+            "med": 26320.2612,
+            "max": 34147.111,
+            "p(90)": 29756.0998,
+            "p(95)": 30412.804275,
+            "p(99)": 31540.853081999998
+        },
+        "data_sent": {
+            "count": 3299834,
+            "rate": 10575.430962935458
+        },
+        "server_500_errors": {
+            "count": 2,
+            "rate": 0.006409674524800615
+        },
+        "http_req_tls_handshaking": {
+            "min": 0,
+            "avg": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0
+        },
+        "checks": {
+            "fails": 10632,
+            "passes": 50963,
+            "value": 0.8273885867359364
+        },
+        "registration_duration": {
+            "max": 34498,
+            "p(90)": 29939,
+            "p(95)": 30606.399999999994,
+            "p(99)": 31751.1,
+            "min": 98,
+            "avg": 21646.44914359932,
+            "med": 26508
+        },
+        "http_req_blocked": {
+            "p(95)": 0.5066299999999996,
+            "p(99)": 2.529380999999985,
+            "min": 0,
+            "avg": 0.10684218344155855,
+            "med": 0,
+            "max": 23.6202,
+            "p(90)": 0
+        },
+        "iterations": {
+            "count": 12319,
+            "rate": 39.48039023550939
+        },
+        "http_req_failed": {
+            "passes": 2,
+            "fails": 12318,
+            "thresholds": {
+                "rate<0.20": false
+            },
+            "value": 0.00016233766233766234
+        },
+        "http_req_connecting": {
+            "p(99)": 2.3714919999999986,
+            "min": 0,
+            "avg": 0.09363809253246759,
+            "med": 0,
+            "max": 23.6202,
+            "p(90)": 0,
+            "p(95)": 0.5017
+        }
+    },
+    "setup_data": {
+        "startTime": "2025-10-13T05:55:18.996Z"
+    }
+}

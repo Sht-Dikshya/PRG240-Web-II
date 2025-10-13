@@ -1,0 +1,3 @@
+com/example/CucumberTest.class
+steps/AuthenticationSteps.class
+com/example/api/AuthenticationApiTest.class
